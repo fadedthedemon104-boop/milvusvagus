@@ -1,0 +1,44 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://milvus\\.io/docs/v2\\.0\\.0/",
+      "comment": "Deprecated v2.0.0 docs with redirect issues"
+    },
+    {
+      "pattern": "^https://milvus\\.io/docs/v2\\.0\\.x/",
+      "comment": "Milvus docs with redirect loop issues"
+    },
+    {
+      "pattern": "^https://milvus\\.io/docs/index\\.md$",
+      "comment": "Milvus index page with redirect loop"
+    },
+    {
+      "pattern": "^https://milvus\\.io/docs/metric\\.md$",
+      "comment": "Milvus metric page with redirect loop"
+    },
+    {
+      "pattern": "^https://milvus\\.io/docs/grouping-search\\.md$",
+      "comment": "Milvus grouping search with redirect loop"
+    },
+    {
+      "pattern": "^https://eng\\.uber\\.com/",
+      "comment": "External resource no longer available"
+    },
+    {
+      "pattern": "^https://crates\\.io/crates/pinyin$",
+      "comment": "Rust crate no longer available"
+    },
+    {
+      "pattern": "^https://postgis\\.net/workshops/zh_Hans/",
+      "comment": "PostGIS workshop resource no longer available"
+    },
+    {
+      "pattern": "^https://yandex\\.cloud/ru/docs/ai-studio/embeddings/",
+      "comment": "Yandex Cloud docs with redirect loop issues"
+    },
+    {
+      "pattern": "^\\.\\.?/",
+      "comment": "Relative links to missing local files"
+    }
+  ]
+}
